@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Магазин мороженого:Каталог продукции</title>
@@ -15,19 +15,21 @@
         <li><a href="delivery-payment.html">Доставка и оплата</a></li>
         <li><a href="about-company.html">О Компании</a></li>
       </ul>
-      <form class="search">
-        <input class="site-search" type="search" name="search" id="search">
-        <label class="input-indicator" for="search"></label>
-      </form>
+    </nav>
+    <div class="header-controls">
+      <div class="search-wrapper">
+        <form class="search">
+          <input class="site-search" type="search" name="search" id="search" placeholder="Что ищем?">
+          <label class="input-indicator" for="search"></label>
+        </form>
+      </div>
       <ul class="user-navigation">
-
+        <!-- Здесь будет форма -->
       </ul>
       <ul class="cart-navigation">
 
       </ul>
-    </nav>
-    <p class="working-hours">С&nbsp;10&nbsp;до&nbsp;20, ежедневно</p>
-    <p class="contact-number">8&nbsp;812 450-25-25</p>
+    </div>
   </header>
   <main>
     <ul class="breadcrumbs">
@@ -35,6 +37,10 @@
       <li><a href="catalog.html">Каталог</a></li>
       <li class="breadcrumbs-current">Сливочное</li>
     </ul>
+    <div class="schedule">
+      <p class="working-hours">С&nbsp;10&nbsp;до&nbsp;20, ежедневно</p>
+      <p class="contact-number">8&nbsp;812 450-25-25</p>
+    </div>
     <h1 class="page-title">Сливочное мороженое</h1>
     <section class="filters">
       <h2 class="visually-hidden">Фильтр товаров</h2>
@@ -141,13 +147,15 @@
           </div>
         </li>
       </ul>
+    </section>
+    <nav class="pagination">
       <ul class="pagination-list">
         <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
         <li class="pagination-item"><a href="#">2</a></li>
         <li class="pagination-item"><a href="#">3</a></li>
         <li class="pagination-item"><a href="#">4</a></li>
       </ul>
-    </section>
+    </nav>
   </main>
   <footer class="main-footer">
     <ul class="footer-social">
