@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Луиза  Мусаахунова](https://up.htmlacademy.ru/htmlcss/24/user/782461).
-* Наставник: [Ирина Шефер](https://htmlacademy.ru/htmlcss/24/user/33806).
+* Наставник: [Ирина Шефер](https://htmlacademy.ru/profile/shefer).
 
 ---
 
