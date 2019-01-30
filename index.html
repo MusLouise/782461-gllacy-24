@@ -14,20 +14,22 @@
           <li>
             <a href="catalog.html">Каталог</a>
             <ul class="sub-menu-list">
-              <li class="sub-menu-item"><a href="new-products.html"></a></li>
-              <li class="sub-menu-item"><a href="cream.html"></a></li>
-              <li class="sub-menu-item"><a href="sorbet.html"></a></li>
-              <li class="sub-menu-item"><a href="popsicle.html"></a></li>
-              <li class="sub-menu-item"><a href="melorin.html"></a></li>
+              <li class="sub-menu-item"><a href="new-products.html">Новинки</a></li>
+              <li class="sub-menu-item"><a href="cream.html">Сливочное</a></li>
+              <li class="sub-menu-item"><a href="sorbet.html">Щербеты</a></li>
+              <li class="sub-menu-item"><a href="popsicle.html">Фруктовый лед</a></li>
+              <li class="sub-menu-item"><a href="melorin.html">Мелорин</a></li>
             </ul>
           </li>
           <li><a href="delivery-payment.html">Доставка и оплата</a></li>
           <li><a href="about-company.html">О Компании</a></li>
         </ul>
-        <form class="search">
-          <input class="site-search" type="search" name="search" id="search">
-          <label class="input-indicator" for="search"></label>
-        </form>
+        <div class="search-wrapper">
+          <form class="search">
+            <input class="site-search" type="search" name="search" id="search" placeholder="Что ищем?">
+            <label class="input-indicator" for="search"></label>
+          </form>
+        </div>
         <ul class="user-navigation">
           <!-- Здесь будет форма -->
         </ul>
@@ -137,7 +139,7 @@
           <address>ул. Большая Конюшенная 19/8, Санкт-Петербург</address>
           <p class="contact-phone-text">Для заказов по телефону:</p>
           <p class="contact-phone">8&nbsp;812&nbsp;450-25-25</p>
-          <p class="working-hours">8&nbsp;812&nbsp;450-25-25</p>
+          <p class="working-hours">(с 10 до 20 ежедневно)</p>
           <button class="button feedback-form" type="button">Форма обратной связи</button>
         </div>
 
@@ -166,11 +168,12 @@
       </div>
     </footer>
     <section class="modal modal-login">
-      <h2>Личный кабинет</h2>
+      <h2 class="visually-hidden">Личный кабинет</h2>
       <!-- Здесь будет форма -->
       <span class="modal-close">x</span>
     </section>
     <section class="modal modal-feedback">
+      <h2 class="visually-hidden">Форма для обратной связи</h2>
       <p>Мы обязательно вам ответим!</p>
       <!-- Здесь будет форма -->
     </section>
