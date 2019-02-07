@@ -29,15 +29,30 @@
         <div class="search-wrapper">
           <form class="search">
             <input class="site-search" type="search" name="search" id="search" placeholder="Что ищем?">
-            <label class="input-indicator" for="search"></label>
+            <label class="visually-hidden" for="search">Поле ввода поиска</label>
           </form>
         </div>
-        <ul class="user-navigation">
-          <!-- Здесь будет форма -->
-        </ul>
-        <ul class="cart-navigation">
-
-        </ul>
+        <div class="login-link-wrapper">
+          <a class="login-link" href="login.html">Вход</a>
+          <form class="user-login" method="post" action="https://echo.htmlacademy.ru">
+            <p>
+              <label class="visually-hidden" for="user-email">Электронная почта</label>
+              <input class="user-email" id="user-email" type="email" name="email" placeholder="Электронная почта">
+            </p>
+            <p>
+              <label class="visually-hidden" for="user-password">Пароль</label>
+              <input class="user-password" id="user-password" type="password" name="password" placeholder="Пароль">
+            </p>
+            <button type="submit">Войти</button>
+            <div class="useful-links">
+              <a class="forgot-password">Забыли пароль?</a>
+              <a class="registration">Новая регистрация</a>
+            </div>
+          </form>
+        </div>
+        <div class="cart-wrapper">
+          <a class="cart">Корзина</a>
+        </div>
       </div>
     </header>
     <main>
@@ -172,15 +187,16 @@
         <a class="copyright-link">Сделано в&nbsp;HTML Academy &copy;&nbsp;2019</a>
       </div>
     </footer>
-    <section class="modal modal-login">
-      <h2 class="visually-hidden">Личный кабинет</h2>
-      <!-- Здесь будет форма -->
-      <span class="modal-close">x</span>
-    </section>
     <section class="modal modal-feedback">
       <h2 class="visually-hidden">Форма для обратной связи</h2>
       <p>Мы обязательно вам ответим!</p>
-      <!-- Здесь будет форма -->
+      <form class="feedback">
+        <input class="client-name" type="text" name="name" placeholder="Как вас зовут?">
+        <input class="client-email" type="email" name="email" placeholder="Ваша почта для ответа?">
+        <input class="client-text" type="text" name="text" placeholder="Напишите что-нибудь...">
+        <button class="button" type="submit">Отправить</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
     </section>
   </body>
 </html>
